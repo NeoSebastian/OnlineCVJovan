@@ -35,6 +35,8 @@
 				<div class="container-fluid">
 					<div class="top-bar text-center position-relative">
 						<div class="top-bar-inner">
+
+							<a class="btn btn-primary top-bar-cta" href="#" onclick="downloadPDF()">Descargar CV</a>
 							
 							<a class="btn btn-primary top-bar-cta" href="https://www.linkedin.com/in/jovan-sebastian-erazo-collazos/" target="_blank" rel="noopener noreferrer">Contratar</a>
 					
@@ -334,7 +336,6 @@
 									</section>
 									
 									
-									
 								</div><!--//col-side-->
 							</div><!--//row-->
 					    </div><!--//resume-body-->
@@ -352,4 +353,10 @@
 		<small class="copyright"><a class="theme-link" href="https://neosebastian.github.io/OnlineCVJovan/" target="_blank">Jovan Sebastian Erazo Collazos</a><br>Since 2026</small>
 	</footer>
 
+	<script>
+	function downloadPDF() {
+    	window.print();
+	}
+	</script>
+	
 </body>
